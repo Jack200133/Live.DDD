@@ -29,6 +29,7 @@ namespace Live.DDD.API.Controllers
         public async Task<IActionResult> GetPerson(Guid id)
         {
             var response = await liveServices.GetPerson(id);
+            return Ok(response);
         }
 
     }

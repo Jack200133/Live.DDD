@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Live.DDD.Domain.Repositories
 {
-    public interface PersonRepository
+    public interface IPersonRepository
     {
 
         Task<Person> GetPersonByID(PersonId Id);
